@@ -8,4 +8,15 @@ Second, it is quite common for "off-the-shelf" ecotoxicological models to be app
 
 Third, stressing building models rather than using reference source models greatly expands the universe of ecosystems which can be modelled. No single reference source can be written which accounts for the practically infinite different models which could be required in experimental ecotoxicology. A well-developed modelling approach however is infitely replicable, and this is what we tried to build in this chapter. This should encourage more scientists to tackle ecotoxicological modelling in their works. 
 
-While there are benefits to this approach to ecotoxicological modelling, there are also several drawbacks. One major drawback to this approach to modeling the effects of an ecotoxicant on an ecosystem of interest (ecotoxicological modelling) via building boutique models for each situation is that general solutions methods for the developed models will be impossible. As was seen in the case-study example 
+While there are benefits to this approach to ecotoxicological modelling, there are also several drawbacks. One major drawback to this approach to modeling the effects of an ecotoxicant on an ecosystem of interest (ecotoxicological modelling) via building boutique models for each situation is that general solutions methods for the developed models will be impossible. As with the case-study example from the chapter (for those who went and looked at the appendices of the actual study referenced), ecotoxicological models can get complicated very fast. In the case study, there were 13 coupled ordinary differential equations (ODEs) which emerged in the bioaccumulation model. While in this specific case analytical solutions could be used to solve the system (given it a first-order linear set of ODEs), the general set of ODEs which can emerge from the general FTE modeling framework put forward in the book chapter do not have a unifying set of analytical solutions. The primary culprits of this are the
+
+1) predation/consumption terms in the biomass balances, which couple predator and prey,
+2) dietary transfer terms in ecotoxicant balances, which are coupled to food biomass, and
+3) poisoning terms in biomass balances, which are couple dot internal ecotoxicant concentration.
+
+This has important implications for ecotoxicological modelling. In ecotoxicological models where the final set of differential equations which emerge are linear (no coupling), then the set of ODEs can be solved analytically. Many resources are available for understanding how to solve large sets of first-order linear ODEs analytically.[1] While it is not a trivial exercise (requires knowledge of matrix algebra), it possible. This is distinct from large 
+
+
+[1] Rice and Do. "Applied Mathematics and Modeling for Chemical Engineers". Wiley. 2nd Ed. 2012. Hoboken, NJ. 
+
+
