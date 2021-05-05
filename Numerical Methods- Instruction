@@ -1,0 +1,11 @@
+Numerical Methods- Introduction
+
+In the main text of the chapter, we introduced a framework for implementing ecotoxicological models which stressed building models rather than directly copying models from a reference source. This type of model building approach was stressed for a variety of reasons.
+
+First, this chapter was written by and primarily for engineers who want to explore the space of ecotoxicological modeling. In their curriculum, engineers are taught how to buiold
+
+First, it is quite common for "off-the-shelf" ecotoxicological models to be applied (in the veiw of the authors) innappropriately when modeling a system of interest. Even in relatively simple microcosms, it might be common to simply
+
+Third,
+
+The drawback to approaching modeling the effects of an ecotoxicant on an ecosystem of interest (ecotoxicological modelling) via building boutique models for each situation is that general solutions methods for the developed models will be impossible. As was seen in the
